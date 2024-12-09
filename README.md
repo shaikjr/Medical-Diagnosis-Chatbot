@@ -1,82 +1,59 @@
-# Conversational Chatbot Using MedPaLM
+# :two_hearts: Health Care Chat-Bot 🤖
+Project for the 6th Semester Subject -> Machine Learning
 
-### Authors:
-- **Shaik Mahaboob**  
-- **Reddy Sai**  
-- **Lokeshwar Reddy**  
-- School of Computer Science and Engineering & Information Sciences, Presidency University, Bangalore, Karnataka  
+Health Care Chat-Bot is a Healthcare Domain Chatbot to simulate the predictions of a General Physician.
 
----
+## :page_with_curl: Brief
+Through chatbots one can communicate with text or voice interface and get reply through artificial intelligence
 
-## Abstract  
-This project presents a specialized conversational chatbot designed for the medical domain using **MedPaLM**, a language model tailored for interpreting and answering queries from medical texts. The chatbot provides contextually appropriate responses, assisting healthcare professionals and patients in accessing reliable medical information efficiently. By leveraging advanced language processing capabilities, this project demonstrates the potential of AI-driven solutions in transforming healthcare communication.  
+Typically, a chat bot will communicate with a real person. 
+Chat bots are used in applications such as 
 
----
+1. E-commerce customer service,
+2. Call centres, 
+3. Internet gaming. 
 
-## Keywords  
-**MedPaLM**, **Medical Chatbot**, **Conversational AI**, **Natural Language Processing**, **Healthcare Technology**, **Machine Learning**  
+Chatbots are programs built to automatically engage with received messages. Chatbots can be programmed to respond the same way each time, to respond differently to messages containing certain keywords and even to use machine learning to adapt their responses to fit the situation. 
+A developing number of hospitals, nursing homes, and even private centres, presently utilize online Chatbots for human services on their sites. These bots connect with potential patients visiting the site, helping them discover specialists, booking their appointments, and getting them access to the correct treatment. 
+In any case, the utilization of artificial intelligence in an industry where individuals’ lives could be in question, still starts misgivings in individuals. It brings up issues about whether the task mentioned above ought to be assigned to human staff. This healthcare chatbot system will help hospitals to provide healthcare support online 24 x 7, it answers deep as well as general questions. It also helps to generate leads and automatically delivers the information of leads to sales. By asking the questions in series it helps patients by guiding what exactly he/she is looking for. 
 
----
+## :card_index: Features
+- Register Screen.
+- Sign-in Screen.
+- Generates database for user login system.
+- Offers you a GUI Based Chatbot for patients for diagnosing. [A pragmatic Approach for Diagnosis]
+- Reccomends an appropriate doctor to you for the following symptom.
 
-## Introduction  
-With the exponential growth of medical knowledge, healthcare professionals face challenges in retrieving relevant information promptly. This project addresses these challenges by developing a Conversational Chatbot using **MedPaLM**, an advanced AI language model trained on medical texts.
+## :scroll: Modules Used
+Our	program	uses	a	number	of	python	modules	to	work	properly:
 
-The chatbot acts as an intelligent assistant, interacting with medical documents and delivering accurate, concise, and context-aware responses. This solution aims to streamline access to medical information and support decision-making processes in clinical and research settings.
+1. tkinter 
+1. os
+1. webbrowser
+1. numpy
+1. pandas
+1. matplotlib
 
----
+## :white_square_button: Installation 
+Install the following package by typing the following in CMD
 
-## Key Features  
-1. **Telehealth Transformation**: Offers remote consultations to reduce physical hospital visits while maintaining care quality.  
-2. **AI-Powered Virtual Doctor**: Acts as a virtual doctor, providing real-time healthcare advice using NLP.  
-3. **Serverless Architecture**: Built on Google Cloud Platform (GCP) for scalability and efficiency.  
-4. **Personalized Health Assistance**: Offers preventive care, home remedies, symptom checkers, and more.  
-5. **Multilingual Support**: Communicates in multiple languages to cater to diverse linguistic needs in India.  
-6. **Healthcare in Rural Areas**: Bridges the gap in healthcare access, especially in remote areas.  
-7. **Intelligent Remote Consultations**: Provides timely healthcare advice, improving remote care quality.  
+- `pip install numpy`
+- `pip install pandas`
+- `pip install matplotlib`
 
----
+To make sure it is installed correctly, open IDLE and execute :
 
-## Implementation Considerations  
-- **Cost-Effectiveness**: Uses Python and Flask for backend services to maintain low operational costs.  
-- **Scalability**: Designed to support additional features, more languages, and device integration.  
-- **Data Privacy and Security**: Adheres to regulations like HIPAA and GDPR, ensuring end-to-end encryption.  
+- `import numpy`
+- `import pandas`
+- `import matplotlib`
 
----
+If no errors appeared then the installation is done correctly.
+Then, Go to your directory and run the file `QuestionDiagonosisTkinter.py`
 
-## Challenges  
-1. **Technical Complexity**: Adapting MedPaLM for specific tasks and maintaining NLU accuracy.  
-2. **Scalability**: Handling real-time queries with low latency and updating the knowledge base.  
-3. **Security and Privacy**: Protecting sensitive data with robust authentication and encryption.  
-4. **User Adoption**: Ensuring trust in chatbot responses and creating an intuitive UI.  
-5. **Maintenance**: Updating models, minimizing downtime, and addressing user issues effectively.  
 
----
+## :suspect: Project Members
 
-## Technologies Used  
-- **MedPaLM**: AI language model tailored for the medical domain.  
-- **Flask**: Lightweight web framework for API development.  
-- **Google Cloud Platform (GCP)**: Provides serverless architecture and scalability.  
-- **Python**: Backend implementation.  
-
----
-
-## How to Run the Project  
-
-1. **Clone the Repository**:  
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-2. **Set Up a Virtual Environment**:
-   '''bash
-   python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. **Install Dependencies**:
- '''bash
-pip install -r requirements.txt
-4. **Run the Flask App**:
-   '''bash
-   flask run
-5. **Access the Application**:
-   '''bash
-   Open your browser and navigate to http://127.0.0.1:5000.
+- [Aryan Veturekar](https://github.com/aryanveturekar)
+- [Himanshu Singh](https://github.com/himanshusiingh)
+- [Danish Shaikh](https://github.com/danishsshaikh)
 
